@@ -1,0 +1,21 @@
+{margin: 0;}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 60px;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 21px;
+    transition: 0.5s;
+}
+h1.welcome {text-align: center; background-color: gray; text-color: red;}
+div.images {background-color: aliceblue}
