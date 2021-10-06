@@ -1,0 +1,13 @@
+body {margin: 0; padding: 0;}
+nav {background-color: lightgray; width: 100%; padding: 10px;}
+.content {width: 100%; background-color: mintcream; margin: 0; padding: 0}
+.aboutcontent {width: 100%; margin: 0; padding: 0;}
+h1 {text-align: center}
+.flex {display: flex;}
+.content p {width: 50%; flex: 1; margin: 10px;}
+.aboutcontent p {padding: 5px; background-color: lightsteelblue; max-width: 250px; float: left; margin: 10px;}
+.aboutcontent img {float: left; margin-right: 5px;}
+footer {background-color: darkblue; width: 100%; text-align: center; color: white; margin: 0; padding: 0;}
+@media only screen and (max-width: 800px) {
+    .aboutcontent p {max-width: 780px;}
+}
