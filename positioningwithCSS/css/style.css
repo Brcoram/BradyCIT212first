@@ -1,0 +1,7 @@
+nav {position: fixed; top: 0; width: 100%; height: 80px; background-color: white; border-bottom: 10px solid black; box-shadow: 8px;}
+div.logo {float: right; width: 80px; height: 80px; display: block; margin: 0; background-color: black}
+div.container {width: 100%; height: 800px; background-color: gray; margin-top: 90px; padding-top: 10px}
+div.whitebox {width: 200px; height: 200px; background-color: white; margin: 20px;}
+footer {width: 100%; height: 80px; background-color: white; border-top: 2px solid black; text-align:center;}
+
+
