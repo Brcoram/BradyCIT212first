@@ -1,0 +1,104 @@
+body {font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+  margin: 0;
+  flex-flow: row wrap;
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  background: darkseagreen;
+}
+li.logo {display: block;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin-right: auto;
+}
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: navy;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+.splash {background: url(ocean.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  background-position: center;
+}
+.splash h2 {text-align: center; font-size: 3em}
+.footer {
+  background: darkslategrey;
+  text-align: center;
+  font-color: white;
+}
+
+.main {
+  text-align: left;
+  background: darkslategrey;
+  font-style: 2em Arial;
+  color: white;
+  padding: 5% 20%;
+}
+
+.flex-item {
+  background: darkseagreen;
+  border-top: 35px solid navy;
+  width: 300px;
+  height: 100px;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.flex-item-wide {
+  background: darkseagreen;
+  border-top: 35px solid navy;
+  width: 500px;
+  height: 100px;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.flex-item p, .flex-item-wide p {
+  margin-top: auto;
+}
+.flex-row {display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
